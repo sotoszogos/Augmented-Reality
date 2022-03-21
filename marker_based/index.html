@@ -4,14 +4,14 @@
     <!-- we import arjs version without NFT but with marker + location based support -->
     <!--<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>-->
     <script src="build/aframe-ar.js"></script>
-    
+
     <!-- particles system component -->
     <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
-    
+
     <!-- speech command component -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
-    <script src="build/aframe-speech-command-component.js"></script> 
-    
+    <script src="build/aframe-speech-command-component.js"></script>
+
 
     <body style="margin : 0px; overflow: hidden;">
         <a-scene
@@ -21,8 +21,19 @@
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
         <a-marker preset="hiro">
-            <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 0.2" position="0 0 0" material="color: #4CC3D9"></a-entity>
+            <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 1.0" position="0 0 0" material="color: #4CC3D9"></a-entity>
+            <a-sphere id="sphere" geometry="primitive: sphere; " position="0 0 0" radius="1.0" color="#EF2D5E"></a-sphere>
+            <a-cylinder id="cylinder"position="1 0.75 1" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+            <a-entity id="annyang" annyang-speech-recognition></a-entity>
+                <a-entity position="0 2.25 -15" particle-system="preset: snow"
+                          visible="false"
+                          speech-command__start="command: start; type: attribute; attribute: visible; value: true;"
+                          speech-command__stop="command: stop; type: attribute; attribute: visible; value: false;">
+                </a-entity>
+
         </a-marker>
+
+
         <a-entity camera></a-entity>
         </a-scene>
     </body>
