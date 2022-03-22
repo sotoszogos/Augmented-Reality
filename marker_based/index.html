@@ -25,7 +25,7 @@
             <a-sphere id="sphere" geometry="primitive: sphere; " position="0 0 0" radius="1.0" color="#EF2D5E"></a-sphere>
             <a-cylinder id="cylinder"position="1 0.75 1" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
             <a-entity id="annyang" annyang-speech-recognition></a-entity>
-                <a-entity position="0 2.25 -15" particle-system="preset: snow"
+                <a-entity position="0 2.25 -15" particle-system="preset: snow; particleCount: 10000"
                           visible="false"
                           speech-command__start="command: start; type: attribute; attribute: visible; value: true;"
                           speech-command__stop="command: stop; type: attribute; attribute: visible; value: false;">
