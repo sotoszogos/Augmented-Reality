@@ -2,7 +2,7 @@
 
 ### First and Last Name: SOTIRIOS ZOGOPOULOS
 ### University Registration Number: dpsd19040
-### GitHub Personal Profile: https://github.com/sotoszogos
+### GitHub Personal Profile: [Salvas](https://github.com/sotoszogos
 ### Augmented Reality Personal Repository: https://github.com/sotoszogos/Augmented-Reality
 
 # Introduction
