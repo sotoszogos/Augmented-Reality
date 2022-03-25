@@ -1,9 +1,9 @@
 # Lesson: Interaction Design
 
-### First and Last Name: xxx
-### University Registration Number: dpsdxxxxx
-### GitHub Personal Profile: xxx
-### Augmented Reality Personal Repository: xxx
+### First and Last Name: SOTIRIOS ZOGOPOULOS
+### University Registration Number: dpsd19040
+### GitHub Personal Profile: https://github.com/sotoszogos
+### Augmented Reality Personal Repository: https://github.com/sotoszogos/Augmented-Reality
 
 # Introduction
 Δείχνοντας την εικόνα Hiro η οθόνη εμφανίζει έναν χιονάνθρωπο. Λέγοντας την λέξει "start" αρχίζει να χιονίζει. Λέγοντας την λέξη "stop" σταματάει να χιονίζει.
