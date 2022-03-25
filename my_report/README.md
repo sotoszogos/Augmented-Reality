@@ -1,6 +1,6 @@
 # Lesson: Interaction Design
 
-### First and Last Name: **SOTIRIOS ZOGOPOULOS** *Salvas*
+### First and Last Name: SOTIRIOS ZOGOPOULOS   /*Salvas*
 ### University Registration Number: dpsd19040
 ### GitHub Personal Profile: [Salvas](https://github.com/sotoszogos)
 ### Augmented Reality Personal Repository: [Augmented-Reality-Salvas](https://github.com/sotoszogos/Augmented-Reality)
