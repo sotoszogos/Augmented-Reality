@@ -3,7 +3,7 @@
 ### First and Last Name: SOTIRIOS ZOGOPOULOS
 ### University Registration Number: dpsd19040
 ### GitHub Personal Profile: [Salvas](https://github.com/sotoszogos)
-### Augmented Reality Personal Repository: https://github.com/sotoszogos/Augmented-Reality
+### Augmented Reality Personal Repository: [Augmented-Reality-Salvas](https://github.com/sotoszogos/Augmented-Reality)
 
 # Introduction
 Δείχνοντας την εικόνα Hiro η οθόνη εμφανίζει έναν χιονάνθρωπο. Λέγοντας την λέξει "start" αρχίζει να χιονίζει. Λέγοντας την λέξη "stop" σταματάει να χιονίζει.
