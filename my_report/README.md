@@ -16,7 +16,7 @@
 >*p.s. η έμπνευση για τον χιονάνρθρωπο μου ήρθε απο την χιονοθύελλα*
 
 # 2nd Deliverable
-
+Καταρχάς όλα τα patterns έγιναν με την βοήθεια της σελίδας [*AR.js*](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) καθώς έμαθα λίγα πράγμα για τα patterns απο τις σελίδες [*Marker Based*](https://ar-js-org.github.io/AR.js-Docs/marker-based/), [*10 tips to enhance your AR.js app απο τον Nicolò Carpignoli *](https://medium.com/chialab-open-source/10-tips-to-enhance-your-ar-js-app-8b44c6faffca)
 
 # 3rd Deliverable 
 
