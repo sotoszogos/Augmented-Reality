@@ -18,7 +18,7 @@
 # 2nd Deliverable
 Καταρχάς όλα τα patterns έγιναν με την βοήθεια της σελίδας [*AR.js*](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) καθώς έμαθα λίγα πράγμα για τα patterns απο τις σελίδες [*Marker Based*](https://ar-js-org.github.io/AR.js-Docs/marker-based/), [*10 συμβουλές για να βελτιώσετε το AR.js app σου, απο τον Nicolò Carpignoli*](https://medium.com/chialab-open-source/10-tips-to-enhance-your-ar-js-app-8b44c6faffca). Η εικόνα *skull_flowers.png* προσαρμόστηκε στο κώδικα με την βοήθεια της σελίδας [*a image*](https://aframe.io/docs/1.3.0/primitives/a-image.html#sidebar). Το κείμενο προσαρμόστηκε στο κώδικα με την βοήθεια της σελίδας [*a text*](https://aframe.io/docs/1.3.0/components/text.html#sidebar). Τα 3d objects έγιναν με την βοήθεια του blender και προσαρμόστηκαν στο κώδικα με την βοήθεια της σελίδας [*3d models*](https://aframe.io/docs/1.3.0/introduction/models.html#hosting-models).
 
->*p.s. δεν μπόρεσα να κάνω 3d animation*
+
 # 3rd Deliverable 
 
 
