@@ -21,6 +21,26 @@
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
 
+  <script>
+    AFRAME.registerComponent('modify-materials', {
+      init: function () {
+        // Wait for model to load.
+        this.el.addEventListener('model-loaded', () => {
+          // Grab the mesh / scene.
+          const obj = this.el.getObject3D('mesh');
+          // Go over the submeshes and modify materials we want.
+          obj.traverse(node => {
+            if (node.name.indexOf('ship') !== -1) {
+              node.material.color.set('red');
+            }
+          });
+        });
+      }
+    });
+  </script>
+
+
+
 
                 <!-- LET IT SNOW, LET IT SNOW, LET IT SNOW -->
         <a-marker preset="hiro">
@@ -97,7 +117,7 @@
 
         <a-marker preset="Hydrogen" type="pattern" url="assets/H_pattern_card.patt">
             
-            <a-entity gltf-model="assets/Hydrogen.glb" position="0 0.5 0" scale="0.5 0.5 0.5"  ></a-entity>
+            <a-entity gltf-model="assets/Hydrogen.glb" modify-materials position="0 0.5 0" scale="0.7 0.7 0.7"  ></a-entity>
         
         </a-marker>
 
